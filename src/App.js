@@ -20,7 +20,7 @@ import  Sidebar  from "./components/Sidebar";
 
 // export default App;
 import { Box, createTheme, Stack, ThemeProvider } from "@mui/material";
-//import Add from "./components/Add";
+import {Add} from "./components/Add";
 import { useState } from "react";
 
 function App() {
@@ -40,7 +40,7 @@ function App() {
           <Feed />
           <Rightbar />
         </Stack>
-        {/* <Add /> */}
+        <Add />
       </Box>
     </ThemeProvider>
   );
