@@ -1,15 +1,17 @@
 import { Box } from '@mui/material'
 import React from 'react'
+import { Post } from './PostCard'
 
 export const Feed = () => {
   return (
     <Box 
-      bgcolor="green" 
       flex={4} 
       padding={2} 
-      sx={{display: {xs: "none",sm:"block"}}}
       >
-        Feed
+        <Post />
+        <Post />
+        <Post />
+        <Post />
     </Box>
   )
 }
